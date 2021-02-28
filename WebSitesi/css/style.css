@@ -1,0 +1,133 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background: rgb(240, 219, 219);
+    color:black;
+}
+
+.container{
+    justify-content: center;
+    max-width: 50%;
+    padding:2% 5%;
+    position: relative;
+    top:12em;
+}
+
+
+img.index-img{
+    float: left;
+}
+
+.main{
+    position: relative;
+    left:15px;
+    top:3px;
+    font-size: 19px;
+}
+
+.header
+{
+    background-color: blue;
+}
+
+.header p
+{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+
+}
+
+.header a:hover
+{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) 
+{
+    text-decoration: none;
+    color:black;
+}
+
+.active 
+{
+    text-decoration: none;
+    color:black;
+}
+
+li a:hover.active
+{
+    text-decoration: none;
+    color:white;
+}
+
+.ortayazi
+{
+    margin: 1% 5% 1% 5%;
+    padding: 5% 20% 2% 20%;
+}
+
+ .responsive_image
+ {
+    width: 100%;
+    height: auto;
+ }
+
+ .cv_table
+ {
+     margin: auto;
+ }
+
+ table
+ {
+    border-collapse: collapse;
+    width: 30%;
+ }
+
+ tr:nth-child(even) {background-color: #7e93a3}
+
+ .cv_orta
+ {
+     padding: 2% 10% 10% 10% ;
+     overflow-x:auto;
+ }
+
+ .slider
+ {
+    width: 100%;
+    height: auto;
+ }
+
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top:10px;
+    background-color: rgb(236, 236, 236);
+    color: black;
+    text-align: center;
+ }

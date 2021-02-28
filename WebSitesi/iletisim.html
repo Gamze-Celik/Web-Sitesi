@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAU RESTORAN</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css"/>
+    <script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <script src="js/script.js"></script>
+  </head>
+<body>
+
+  <nav class="navbar navbar-expand-md bg-light navbar-light">
+    <a class="navbar-brand" href="index.html">SAU RESTORAN</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fotograflarimiz.html">Fotogaleri</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="basinda-biz.html">Basında Biz</a>
+        </li>    
+        <li class="nav-item">
+          <a class="nav-link" href="iletisim.html">İletişim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sosyal-medya.html">Sosyal Medyada Biz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="istatistiklerimiz.html">İstatistikler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Giriş Yap</a>
+        </li>
+    </div>  
+  </nav>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9085823611185!2d30.330542315713082!3d40.74203704371375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccadf2977958d7%3A0xc7996fa884f94c03!2sSakarya%20University!5e0!3m2!1snl!2str!4v1609051584199!5m2!1snl!2str" frameborder="0" style="border:0;width:100%;height:40vh;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <div class="ortayazi" style="float: center;padding-right: 40%;padding-top:5%">
+    
+    <form name="iletisimFormu" action="iletisimbilgileri.php" method="POST" style="text-align:right" onsubmit="return iletisimKontrol()">
+      
+      Ad : <input type="text" name="ad" value="" placeholder="Ad"><br/><br/>
+      Soyad : <input type="text" name="soyad" value="" placeholder="Soyad"><br/><br/>
+      Cinsiyet : <input type="radio" name="cinsiyet" value="erkek">
+      <label for="erkek">Erkek</label>
+      <input type="radio" name="cinsiyet" value="kadın">
+      <label for="kadın">Kadın</label><br><br>
+      Restoranımızı nasıl keşfettiniz? <br>
+      <input type="checkbox" name="kesif" value="Ödev olduğu için">
+      <label> Ödev</label>
+      <input type="checkbox" name="kesif" value="Tavsiye">
+      <label> Tavsiye</label>
+      <input type="checkbox" name="kesif" value="Medya">
+      <label> Medya</label><br><br>
+      Mail : <input type="email" name="mail" value="" placeholder="Mail"><br/> <br/>
+      Telefon Numarası : <input type="number" name="telefon" value="" placeholder="Telefon No"><br/><br/>
+      Parola : <input type="password" name="parola" value="" placeholder="Parola"><br/><br/>
+      Mesaj : <textarea name="mesaj" rows="10" cols="30"></textarea><br><br>
+      <input type="submit" name="Submit">
+  </form> 
+  <div class="footer">
+    <p>&copy; SAU RESTORAN</p>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
